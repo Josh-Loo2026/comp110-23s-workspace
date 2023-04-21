@@ -60,4 +60,9 @@ class River:
         self.repopulate_bears()
         # Visualize River
         self.view_river()
-            
+
+
+    def river_week(self):
+        idx: int = 0
+        while idx < 6:
+            self.one_river_day()
